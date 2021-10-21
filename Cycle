@@ -3,11 +3,11 @@ fibonacci = [0,1,1,2,3,5,8,13,21]
 for i in range(len(fibonacci)):
     print(i,fibonacci[i])
     
-    colours = ["красный"]
+    colours = ["red"]
 
 for i in colours:
-    if i == "красный":
-        colours += ["черный"]
-    if i == "черный":
-        colours += ["белый"]
+    if i == "red":
+        colours += ["black"]
+    if i == "black":
+        colours += ["white"]
 print(colours)
